@@ -1,0 +1,7 @@
+name "libvorbis"
+description "Deimos Bindings for libvorbis."
+license "BSD 3-clause"
+homepage "https://xiph.org/vorbis"
+importPaths "."
+targetType "sourceLibrary"
+libs "vorbis" platform="posix"

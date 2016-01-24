@@ -2,6 +2,8 @@ module deimos.vorbis.codec;
 
 import core.stdc.config;
 
+import deimos.ogg.ogg;
+
 extern (C):
 
 struct vorbis_info
